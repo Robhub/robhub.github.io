@@ -8,6 +8,11 @@ body
 {
 	margin-bottom: 50px;
 }
+#infos img
+{
+	width: 16px;
+	height: 16px;
+}
 #infos ul
 {
 	list-style-type: none;
