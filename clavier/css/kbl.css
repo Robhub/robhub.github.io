@@ -1,0 +1,182 @@
+html
+{
+	height: 100%;
+}
+body
+{
+	height: 100%;
+	margin: 0px;
+}
+#robipo
+{
+	/*position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 320px;*/
+	font-size: 0.8em;
+	text-align: center;
+	background-color: #FFBB80;
+
+}
+table
+{
+	height: 100%;
+}
+textarea
+{
+	width: 100%;
+	height: 100%;
+	/*height: 99%;*/
+	/*display: none;*/
+}
+
+td
+{
+	/*border: 1px solid black;*/
+	vertical-align: top;
+	/*text-align: center;*/
+}
+/*
+.ui-tabs { position: relative; }
+.ui-tabs .ui-tabs-nav { margin: 0; padding: 0; }
+
+.ui-tabs .ui-tabs-nav li {
+/*
+list-style: none;
+float: left;
+*/
+/*
+position: relative;
+top: 1px;
+margin: 0 .2em 1px 0;
+border-bottom: 0 !important; padding: 0; white-space: nowrap;
+}
+
+.ui-tabs .ui-tabs-nav li a { float: left; padding: .1em .5em; text-decoration: none; background-color: #AAAAAA;
+border: 1px solid black;
+border-radius: 10px;
+-moz-border-radius: 10px;
+
+ }
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected { margin-bottom: 0; padding-bottom: 1px; }
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a {
+background-color: #FFFFFF;
+cursor: text; }
+
+.ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { cursor: pointer; }
+
+.ui-tabs .ui-tabs-panel { 
+display: block; border-width: 0; padding: 0.5em; background: none;
+}
+
+.ui-tabs .ui-tabs-hide { display: none !important; }
+/**/
+.colors
+{
+	padding: 0px;
+	margin: 0px;
+	width: 20px;
+	height: 0.5px;
+}
+#debug
+{
+	font-family: DejaVu Sans, sans-serif;
+}
+#special
+{
+	display: none;
+}
+#samefinger
+{
+	color: red;
+}
+#diffhand
+{
+	color: green;
+}
+#int
+{
+	color: green;
+}
+#ext
+{
+	color: red;
+}
+#key
+{
+	display: none;
+}
+.key
+{
+	width: 38px;
+	height: 38px;
+	padding: 0px;
+	margin: 1px;
+	border: 1px solid black;
+	font-family: DejaVu Sans, sans-serif;
+	
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	/**/
+	position: absolute;
+	background-color: #CCCCCC;
+	font-size: 1em;
+	font-weight: bold;
+}
+.LeftPinky { background-color: #20DDDD; }
+.LeftRing { background-color: #2020DD; }
+.LeftMiddle { background-color: #8020DD; }
+.LeftIndex { background-color: #DD20DD; }
+.LeftThumb { background-color: #AAAAAA; }
+.RightThumb { background-color: #808080; }
+.RightIndex { background-color: #DD2020; }
+.RightMiddle { background-color: #DD8020; }
+.RightRing { background-color: #DDDD20; }
+.RightPinky { background-color: #20DD20; }
+
+.selected
+{
+	background-color: red;
+}
+.key .SC
+{
+	font-size: 0.6em;
+	position: absolute;
+	/*display: none;*/
+	text-align: center;
+	width: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	/*left: 0px;*/
+}
+.key .Norm
+{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+.key .Sh
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.key .Agr
+{
+	color: #606060;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+.key .AgrSh
+{
+	color: #606060;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}

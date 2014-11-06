@@ -1,0 +1,91 @@
+Name	Alphazerty
+ShortName	αzert
+1	Escape
+2	&	1
+3	é	2	~
+4	"	3	#
+5	'	4	{
+6	(	5	[
+7	-	6	|
+8	è	7	`
+9	_	8	\
+a	ç	9
+b	à	0	@
+c	)	°	]
+d	=	+	}
+e	Backspace
+f	Tab
+10	a	A
+11	b	B
+12	c	C
+13	d	D
+14	e	E	€
+15	f	F
+16	g	G
+17	h	H
+18	i	I
+19	j	J
+1a	^	¨
+1b	$	£
+1c	Enter
+1d	Control
+1e	k	K
+1f	l	L
+20	m	M
+21	n	N
+22	o	O
+23	p	P
+24	q	Q
+25	r	R
+26	s	S
+27	t	T
+28	ù	%
+29	²
+2a	LShift
+2b	*	µ
+2c	u	U
+2d	v	V
+2e	w	W
+2f	x	X
+30	y	Y
+31	z	Z
+32	,	?
+33	;	.
+34	:	/
+35	!	§
+36	RShift
+37	PrintScreen
+38	Alt
+39	Space	 	_	 
+3a	CapsLock
+3b	F1
+3c	F2
+3d	F3
+3e	F4
+3f	F5
+40	F6
+41	F7
+42	F8
+43	F9
+44	F10
+45	NumLock
+46	ScrollLock
+47	Home
+48	Up
+49	PageUp
+4b	Left
+4d	Right
+4f	End
+50	Down
+51	PageDown
+52	Insert
+53	Delete
+56	<	>
+57	F11
+58	F12
+5b	Super
+5c	Int6(0x5C)
+5d	Menu
+70	112(0x70)
+73	115(0x73)
+79	Int4(0x79)

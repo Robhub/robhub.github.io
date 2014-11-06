@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>WebKLC − Keyboard Layout Comparator</title>
+		<link rel="stylesheet" href="css/kbl.css" />
+		<link rel="stylesheet" href="css/ui-lightness/jquery-ui-1.8.21.custom.css" /><!---->
+		<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+		<!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>-->
+		<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="js/jquery-ui-1.8.21.custom.min.js"></script>
+		<script type="text/javascript" src="js/kbl.js"></script>
+	</head>
+	<body>
+		<!--<h1>Gestion de Dispositions de Clavier</h1>-->
+		<table>
+			<tr>
+				<td>
+					<table>
+						<tr>
+							<td>
+								Clavier<br/>
+								<select id="skb" size="12"><option value="standard-A">standard-A</option>
+<option value="standard-o0" selected="selected">standard-o0</option>
+<option value="standard">standard</option>
+<option value="trulyergonomic">trulyergonomic</option>
+<option value="typefauvix">typefauvix</option>
+<option value="typematrix">typematrix</option>
+</select>
+							</td>
+							<td>
+								Disposition<br/>
+								<select id="skbl" size="12"><option value="[EN]carpalx">[EN]carpalx</option>
+<option value="[EN]colemak">[EN]colemak</option>
+<option value="[EN]dvorak">[EN]dvorak</option>
+<option value="[EN]qwerty">[EN]qwerty</option>
+<option value="[FR]alphazerty">[FR]alphazerty</option>
+<option value="[FR]azerty">[FR]azerty</option>
+<option value="[FR]bepo" selected="selected">[FR]bepo</option>
+<option value="[FR]bvofrak">[FR]bvofrak</option>
+<option value="[FR]dvorak-fr">[FR]dvorak-fr</option>
+<option value="[TE]bvofrak">[TE]bvofrak</option>
+<option value="[TE]robiteck">[TE]robiteck</option>
+<option value=""></option>
+</select>
+							</td>
+							<td>
+								Corpus<br/>
+								<select id="scorpus" size="12"><option value="[EN]alice">[EN]alice</option>
+<option value="[EN]politic">[EN]politic</option>
+<option value="[FR]fauve_seducv" selected="selected">[FR]fauve_seducv</option>
+<option value="[FR]johnix_autonomy">[FR]johnix_autonomy</option>
+<option value="[FR]perec_disparition">[FR]perec_disparition</option>
+<option value="_bigmix_">_bigmix_</option>
+<option value="alifauve">alifauve</option>
+<option value="johnix_prog">johnix_prog</option>
+<option value="johnix_prog_epure">johnix_prog_epure</option>
+</select>
+							</td>
+						</tr>
+						<tr>
+							<td id="edits" colspan="3" style="height:100%;">
+								<ul>
+									<li><a href="#edits-1">Clavier</a></li>
+									<li><a href="#edits-2">Disposition</a></li>
+									<li><a href="#edits-3">Corpus</a></li>
+								</ul>
+								<div style="height:90%;" id="edits-1"><textarea rows="20" id="kb"></textarea></div><!-- rows="40" -->
+								<div style="height:90%;" id="edits-2"><textarea rows="20" id="kbl"></textarea></div><!-- rows="40" -->
+								<div style="height:90%;" id="edits-3"><textarea rows="20" id="corpus"></textarea></div>			
+							</td>
+						</tr>
+					</table>
+				</td>
+				<td style="width:100%">
+					<div id="key" class="key"><!-- Modèle de touche qui sera copié -->
+						<div class="Norm"></div>
+						<div class="Sh"></div>
+						<div class="Agr"></div>
+						<div class="AgrSh"></div>
+						<div class="SC"></div>
+					</div>
+					<div id="display" style="position: relative;"></div><!-- Contient le clavier avec toutes les touches qui seront dedans -->
+					<div id="res" style="position: relative;">
+						<div id="keyboard"></div>
+						<div id="layout"></div>
+						<div id="statstiming"></div>
+						<input type="checkbox" id="autostats" checked="checked">Calculer automatiquement les stats</input><br />
+						<input type="text" id="roultxt" size="8" maxlength="6" />
+						<input type="text" id="roultxt2" size="8" maxlength="6" />
+						<button id="roul">Roulement</button><br/>
+						<button id="calcstats">Calculer les stats</button>
+						<button id="clearstats">Effacer les stats</button>
+						<button id="colorfingers">Colorier selon les doigts</button>
+						<button id="colorfreq">Colorier selon la fréquence</button>
+						<div id="stats"></div>
+						<div id="charts"></div>
+						
+					<!--<button id="updateStats">Je veux des stats ! ^^</button>-->
+					</div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

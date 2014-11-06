@@ -1,0 +1,103 @@
+Name	TrulyErgonomic™
+ShortName	TE
+
+
+1	0	0.5
+3b	P+1.2	P
+3c	PN	P
+3d	PN	P
+3e	PN	P
+3f	P+1.2	P
+40	PN	P
+41	PN	P
+42	PN	P
+43	P+1.2	P
+44	PN	P
+57	PN	P
+58	PN	P
+53	14	P
+
+
+3a	6	1.5
+45	8	1.5
+
+
+56	0	3
+29	PN	P
+2	PN	P
+3	PN	P-0.2
+4	PN	P-0.2
+5	PN	P+0.2
+6	PN	P+0.2
+5b	PN	P
+7	PN	P
+8	PN	P-0.2
+9	PN	P-0.2
+a	PN	P+0.2
+b	PN	P+0.2
+c	PN	P
+d	PN	P
+
+
+2b	0	4
+35	PN	P
+10	PN	P
+11	PN	P-0.2
+12	PN	P-0.2
+13	PN	P+0.2
+14	PN	P+0.2
+79	PN	P
+15	PN	P
+16	PN	P-0.2
+17	PN	P-0.2
+18	PN	P+0.2
+19	PN	P+0.2
+1a	PN	P
+1b	PN	P
+
+
+2a	0	5	2
+1e	PN	P
+1f	PN	P-0.2
+20	PN	P-0.2
+21	PN	P+0.2
+22	PN	P+0.2
+f	PN	P
+23	PN	P
+24	PN	P-0.2
+25	PN	P-0.2
+26	PN	P+0.2
+27	PN	P+0.2
+36	PN	P	2
+
+
+1d	0	6	2
+2c	PN	P
+2d	PN	P-0.2
+2e	PN	P-0.2
+2f	PN	P+0.2
+30	PN	P+0.2
+e	PN	P
+31	PN	P
+32	PN	P-0.2
+33	PN	P-0.2
+34	PN	P+0.2
+28	PN	P+0.2
+1d	PN	P	2
+
+
+70	0	7
+38	PN	P
+47	PN	7.3
+49	PN	6.8
+51	P	PN
+4f	PN	7.3
+5c	PN	7	2
+1c	PN	P
+39	PN	P	2
+4b	PN	7.3
+48	PN	6.8
+50	P	PN
+4d	PN	7.3
+38	PN	7
+73	PN	P

@@ -1,0 +1,98 @@
+Name	TypeMatrix™
+ShortName	TM
+
+
+1	0	0.3	1	0.7
+3b	PN	P	1	0.7
+3c	PN	P	1	0.7
+3d	PN	P	1	0.7
+3e	PN	P	1	0.7
+3f	PN	P	1	0.7
+53	PN	P	1
+40	PN	P	1	0.7
+41	PN	P	1	0.7
+42	PN	P	1	0.7
+43	PN	P	1	0.7
+44	PN	P	1	0.7
+57	PN	P	1	0.7
+58	PN	P	1	0.7
+
+
+29	0	1
+2	PN	P
+3	PN	P
+4	PN	P
+5	PN	P
+6	PN	P
+7	7	P
+8	PN	P
+9	PN	P
+a	PN	P
+b	PN	P
+c	PN	P
+d	PN	P
+e	6	1.3	1	1.7
+
+
+f	0	2
+10	PN	P
+11	PN	P
+12	PN	P
+13	PN	P
+14	PN	P
+15	7	P
+16	PN	P
+17	PN	P
+18	PN	P
+19	PN	P
+1a	PN	P
+1b	PN	P
+
+2a	0	3	1	2
+1e	PN	P
+1f	PN	P
+20	PN	P
+21	PN	P
+22	PN	P
+1c	PN	P	1	2
+23	PN	P
+24	PN	P
+25	PN	P
+26	PN	P
+27	PN	P
+28	PN	P
+36	PN	P	1	2
+3a	PN	P
+
+
+
+2c	1	4
+2d	PN	P
+2e	PN	P
+2f	PN	P
+30	PN	P
+31	7	P
+32	PN	P
+33	PN	P
+34	PN	P
+35	PN	P
+2b	PN	P
+
+1d	0	5
+56	PN	P
+5d	PN	P
+39	4	P	5	1.3
+47	10	P
+48	PN	P
+4f	PN	P
+1d	PN	P	1	2
+49	PN	P
+
+
+5b	1	6	1.5
+38	PN	P	1.5
+38	9	P
+4b	PN	P
+50	PN	P
+4d	PN	P
+51	14	P

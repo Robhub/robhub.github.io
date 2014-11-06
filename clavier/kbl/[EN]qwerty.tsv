@@ -1,0 +1,91 @@
+Name	QWERTY
+ShortName	QWE
+1	Escape
+2	1	!
+3	2	@
+4	3	#
+5	4	$
+6	5	%
+7	6	^
+8	7	&
+9	8	*
+a	9	(
+b	0	)
+c	-	_
+d	=	+
+e	Backspace
+f	Tab
+10	q	Q
+11	w	W
+12	e	E
+13	r	R
+14	t	T
+15	y	Y
+16	u	U
+17	i	I
+18	o	O
+19	p	P
+1a	[	{
+1b	]	}
+1c	Enter
+1d	Control
+1e	a	A
+1f	s	S
+20	d	D
+21	f	F
+22	g	G
+23	h	H
+24	j	J
+25	k	K
+26	l	L
+27	;	:
+28	'	"
+29	`	~
+2a	LShift
+2b	\	|
+2c	z	Z
+2d	x	X
+2e	c	C
+2f	v	V
+30	b	B
+31	n	N
+32	m	M
+33	,	<
+34	.	>
+35	/	?
+36	RShift
+37	PrintScreen
+38	Alt
+39	Space
+3a	CapsLock
+3b	F1
+3c	F2
+3d	F3
+3e	F4
+3f	F5
+40	F6
+41	F7
+42	F8
+43	F9
+44	F10
+45	NumLock
+46	ScrollLock
+47	Home
+48	Up
+49	PageUp
+4b	Left
+4d	Right
+4f	End
+50	Down
+51	PageDown
+52	Insert
+53	Delete
+56	<	>
+57	F11
+58	F12
+5b	Super
+5c	Int6(0x5C)
+5d	Menu
+70	112(0x70)
+73	115(0x73)
+79	Int4(0x79)

@@ -1,0 +1,98 @@
+Name	Standard
+ShortName	STD
+
+1	0	0
+3b	P+2	P
+3c	PN	P
+3d	PN	P
+3e	PN	P
+3f	P+1.5	P
+40	PN	P
+41	PN	P
+42	PN	P
+43	P+1.5	P
+44	PN	P
+57	PN	P
+58	PN	P
+
+
+29	0	2	1.1
+2	PN	P
+3	PN	P
+4	PN	P
+5	PN	P
+6	PN	P
+7	PN	P
+8	PN	P
+9	PN	P
+a	PN	P
+b	PN	P
+c	PN	P
+d	PN	P
+e	PN	P	1.9
+52	16	P
+47	PN	P
+49	PN	P
+
+
+f	0	3	1.4
+10	PN	P
+11	PN	P
+12	PN	P
+13	PN	P
+14	PN	P
+15	PN	P
+16	PN	P
+17	PN	P
+18	PN	P
+19	PN	P
+1a	PN	P
+1b	PN	P
+1c	P+1.2	P	1.4	2
+53	16	P
+4f	PN	P
+51	PN	P
+
+
+3a	0	4	1.6
+1e	PN	P
+1f	PN	P
+20	PN	P
+21	PN	P
+22	PN	P
+23	PN	P
+24	PN	P
+25	PN	P
+26	PN	P
+27	PN	P
+28	PN	P
+2b	PN	P
+
+
+2a	0	5
+56	PN	P
+2c	PN	P
+2d	PN	P
+2e	PN	P
+2f	PN	P
+30	PN	P
+31	PN	P
+32	PN	P
+33	PN	P
+34	PN	P
+35	PN	P
+36	PN	P	3
+48	17	P
+
+
+1d	0	6	1.2
+5b	PN	P	1.2
+38	PN	P	1.2
+39	PN	P	6.8
+38	PN	P	1.2
+5b	PN	P	1.2
+5d	PN	P
+1d	PN	P	1.2
+4b	16	P
+50	PN	P
+4d	PN	P

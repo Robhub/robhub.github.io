@@ -1,0 +1,120 @@
+Name	TypeFauvix
+ShortName	TF
+
+
+?	0	0
+3b	PN	P
+3c	PN	P
+3d	PN	P
+3e	PN	P
+3f	PN	P
+40	PN	P
+?	PN	P
+?	PN	P
+41	PN	P
+42	PN	P
+43	PN	P
+44	PN	P
+57	PN	P
+58	PN	P
+?	PN	P
+
+
+
+
+45	0	1
+
+29	PN	P
+2	PN	P
+3	PN	P
+4	PN	P
+5	PN	P
+6	PN	P
+f	PN	P	1	2
+1	PN	P	1	2
+7	PN	P
+8	PN	P
+9	PN	P
+a	PN	P
+b	PN	P
+c	PN	P
+d	PN	P
+
+3a	0	2
+?	PN	P
+10	PN	P
+11	PN	P
+12	PN	P
+13	PN	P
+14	PN	P
+15	P+3	P
+16	PN	P
+17	PN	P
+18	PN	P
+19	PN	P
+1a	PN	P
+?	PN	P
+
+
+2a	0	3
+1b	PN	P
+1e	PN	P
+1f	PN	P
+20	PN	P
+21	PN	P
+22	PN	P
+53	PN	P	1	2
+e	PN	P	1	2
+23	PN	P
+24	PN	P
+25	PN	P
+26	PN	P
+27	PN	P
+28	PN	P
+36	PN	P
+
+
+?	0	4
+56	PN	P
+2c	PN	P
+2d	PN	P
+2e	PN	P
+2f	PN	P
+30	PN	P
+31	P+3	P
+32	PN	P
+33	PN	P
+34	PN	P
+35	PN	P
+2b	PN	P
+?	PN	P
+
+
+5b	0	5
+?	PN	P
+?	PN	P
+?	PN	P
+?	PN	P
+1d	PN	P
+1c	PN	P	2
+39	PN	P	2
+1d	PN	P
+?	PN	P
+5d	PN	P
+47	PN	P
+?	PN	P
+5b	PN	P
+
+
+?	0	6
+?	PN	P
+?	PN	P
+?	PN	P
+?	PN	P
+38	PN	P
+38	P+5	P
+?	PN	P
+?	PN	P
+?	PN	P
+?	PN	P
+?	PN	P
