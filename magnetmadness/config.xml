@@ -1,0 +1,208 @@
+<config>
+	<options>
+		<width>800</width>
+		<height>450</height>
+		<lives>4</lives>
+		<range>128</range>
+		<power>0.08</power>
+		<safeDist>150</safeDist>
+		<percentSkull>30</percentSkull>
+	</options>
+	<colors>
+		<color r="250" g="88" b="60"/>
+		<color r="60" g="250" b="60"/>
+		<color r="60" g="155" b="250"/>
+		<color r="250" g="250" b="60"/>
+		<color r="155" g="60" b="250"/>
+	</colors>
+	<shapes>
+		<shape>poly</shape>
+		<shape>rond</shape>
+		<shape>carre</shape>
+		<shape>triangle</shape>
+	</shapes>
+	<levels name="tuto">
+		<level><!-- couleurs -->
+			<background>tutocolor.jpg</background>
+			<objSpeed>0</objSpeed>
+			<numShapes>1</numShapes>
+			<numColors>2</numColors>
+			<numGoodObjects>6</numGoodObjects>
+			<numBadObjects>12</numBadObjects>
+		</level>
+		<level><!-- formes -->
+			<background>tutoshape.jpg</background>
+			<objSpeed>0</objSpeed>
+			<numShapes>2</numShapes>
+			<numColors>2</numColors>
+			<numGoodObjects>6</numGoodObjects>
+			<numBadObjects>12</numBadObjects>
+		</level>
+		<level><!-- mouvement -->
+			<background>tutomove.jpg</background>
+			<objSpeed>20</objSpeed>
+			<numShapes>2</numShapes>
+			<numColors>2</numColors>
+			<numGoodObjects>6</numGoodObjects>
+			<numBadObjects>12</numBadObjects>
+		</level>
+		<level><!-- murs -->
+			<background>tutowall.jpg</background>
+			<objSpeed>20</objSpeed>
+			<numShapes>2</numShapes>
+			<numColors>2</numColors>
+			<numGoodObjects>6</numGoodObjects>
+			<numBadObjects>12</numBadObjects>
+			<wall type="v" x="0.33" y="0" len="0.66"/>
+			<wall type="v" x="0.66" y="0.33" len="0.66"/>
+		</level>
+	</levels>
+	<levels name="game">
+		<level>
+			<background>1.jpg</background>
+			<objSpeed>10</objSpeed>
+			<numShapes>2</numShapes>
+			<numColors>2</numColors>
+			<numGoodObjects>3</numGoodObjects>
+			<numBadObjects>5</numBadObjects>
+		</level>	
+		<level>
+			<background>2.jpg</background>
+			<objSpeed>20</objSpeed>
+			<numShapes>3</numShapes>
+			<numColors>4</numColors>
+			<numGoodObjects>4</numGoodObjects>
+			<numBadObjects>6</numBadObjects>
+		</level>
+		<level>
+			<background>3.jpg</background>
+			<objSpeed>25</objSpeed>
+			<numShapes>2</numShapes>
+			<numColors>5</numColors>
+			<numGoodObjects>5</numGoodObjects>
+			<numBadObjects>8</numBadObjects>
+		</level>
+		<level>
+			<background>4.jpg</background>
+			<objSpeed>30</objSpeed>
+			<numShapes>4</numShapes>
+			<numColors>5</numColors>
+			<numGoodObjects>5</numGoodObjects>
+			<numBadObjects>10</numBadObjects>
+			<wall type="v" x="0.5" y="0" len="0.33"/>
+			<percentLife>33</percentLife>
+		</level>
+		<level>
+			<background>9.jpg</background>
+			<objSpeed>35</objSpeed>
+			<numShapes>4</numShapes>
+			<numColors>5</numColors>
+			<numGoodObjects>5</numGoodObjects>
+			<numBadObjects>12</numBadObjects>
+			<wall type="v" x="0.5" y="0" len="0.33"/>
+		</level>
+		<level>
+			<background>9.jpg</background>
+			<objSpeed>35</objSpeed>
+			<numShapes>4</numShapes>
+			<numColors>5</numColors>
+			<numGoodObjects>6</numGoodObjects>
+			<numBadObjects>12</numBadObjects>
+			<wall type="v" x="0.5" y="0" len="0.5"/>
+			<percentLife>33</percentLife>
+		</level>
+		<level>
+			<background>9.jpg</background>
+			<objSpeed>35</objSpeed>
+			<numShapes>4</numShapes>
+			<numColors>5</numColors>
+			<numGoodObjects>6</numGoodObjects>
+			<numBadObjects>12</numBadObjects>
+			<wall type="v" x="0.5" y="0" len="0.5"/>
+		</level>		
+		<level>
+			<background>1.jpg</background>
+			<objSpeed>40</objSpeed>
+			<numShapes>4</numShapes>
+			<numColors>5</numColors>
+			<numGoodObjects>6</numGoodObjects>
+			<numBadObjects>12</numBadObjects>
+			<wall type="v" x="0.33" y="0" len="0.33"/>
+			<wall type="v" x="0.66" y="0.66" len="0.33"/>
+		</level>
+		<level>
+			<background>2.jpg</background>
+			<objSpeed>40</objSpeed>
+			<numShapes>3</numShapes>
+			<numColors>5</numColors>
+			<numGoodObjects>7</numGoodObjects>
+			<numBadObjects>12</numBadObjects>
+			<wall type="v" x="0.33" y="0" len="0.33"/>
+			<wall type="v" x="0.66" y="0.66" len="0.33"/>
+		</level>
+		<level>
+			<background>6.jpg</background>
+			<objSpeed>45</objSpeed>
+			<numShapes>3</numShapes>
+			<numColors>5</numColors>
+			<numGoodObjects>7</numGoodObjects>
+			<numBadObjects>15</numBadObjects>
+			<wall type="v" x="0.33" y="0" len="0.66"/>
+			<wall type="v" x="0.66" y="0.33" len="0.66"/>
+			<percentLife>100</percentLife>
+		</level>
+		<level>
+			<background>6.jpg</background>
+			<objSpeed>60</objSpeed>
+			<numShapes>4</numShapes>
+			<numColors>5</numColors>
+			<numGoodObjects>8</numGoodObjects>
+			<numBadObjects>22</numBadObjects>
+			<wall type="v" x="0.33" y="0" len="0.66"/>
+			<wall type="v" x="0.66" y="0.33" len="0.66"/>
+			<percentLife>5</percentLife>
+		</level>
+		<level>
+			<background>11.jpg</background>
+			<objSpeed>70</objSpeed>
+			<numShapes>4</numShapes>
+			<numColors>4</numColors>
+			<numGoodObjects>5</numGoodObjects>
+			<numBadObjects>20</numBadObjects>
+			<wall type="v" x="0.3" y="0.15" len="0.5"/>
+			<wall type="v" x="0.7" y="0.35" len="0.5"/>			
+		</level>
+		<level>
+			<background>19.jpg</background>
+			<objSpeed>10</objSpeed>
+			<numShapes>2</numShapes>
+			<numColors>2</numColors>
+			<numGoodObjects>10</numGoodObjects>
+			<numBadObjects>20</numBadObjects>
+			<wall type="v" x="0.2" y="0" len="0.2"/>
+			<wall type="h" x="0" y="0.9" len="0.66"/>
+			<wall type="v" x="0.6" y="0" len="0.66"/>
+			<wall type="v" x="0.8" y="0.34" len="0.66"/>
+			<wall type="h" x="0.75" y="0.15" len="0.66"/>
+			<wall type="v" x="0.3" y="0.4" len="0.5"/>
+			<wall type="h" x="0.1" y="0.4" len="0.2"/>
+		</level>
+		<level>
+			<background>14.jpg</background>
+			<objSpeed>10</objSpeed>
+			<numShapes>4</numShapes>
+			<numColors>4</numColors>
+			<numGoodObjects>10</numGoodObjects>
+			<numBadObjects>20</numBadObjects>
+			<wall type="v" x="0.5" y="0.3" len="0.4"/>
+			<wall type="h" x="0.2" y="0.15" len="0.66"/>
+			<wall type="h" x="0.2" y="0.85" len="0.4"/>
+			<wall type="h" x="0.68" y="0.85" len="0.32"/>
+			<wall type="v" x="0.2" y="0.53" len="0.32"/>
+			<wall type="h" x="0" y="0.4" len="0.2"/>
+			<wall type="v" x="0.86" y="0.15" len="0.58"/>
+			<wall type="v" x="0.6" y="0" len="0.15"/>
+			<wall type="v" x="0.6" y="0.85" len="0.15"/>	
+		</level>
+	</levels>
+</config>
